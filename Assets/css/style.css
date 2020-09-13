@@ -65,9 +65,11 @@ button {
   }
 }
 
-.nav__logo img {
-  width: 24rem;
-  height: 3.6rem;
+@media screen and (min-width: 1440px) {
+  .nav__logo img {
+    width: 24rem;
+    height: 3.6rem;
+  }
 }
 
 .nav__button {

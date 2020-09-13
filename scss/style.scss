@@ -73,8 +73,10 @@ button {
   }
   &__logo {
     & img {
-      width: 24rem;
-      height: 3.6rem;
+      @include respond(desktop) {
+        width: 24rem;
+        height: 3.6rem;
+      }
     }
   }
 

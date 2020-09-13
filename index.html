@@ -25,8 +25,10 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 20px;
         text-align: center;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: 700;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -79,7 +81,7 @@
       <!-- =============================================================================  -->
       <!-- DIAGRAM SECTION  START -->
       <section class="diagram">
-        <div class="diagram__community">
+        <div class="diagram__community" data-aos="fade-down">
           <img src="./images/icon-communities.svg" alt="image of community" />
           <h2>1.4k+</h2>
           <p>Communities Formed</p>
@@ -101,7 +103,11 @@
             width="150px"
             height="150px"
             src="./images/bg-section-top-mobile-1.svg"
-            alt=""
+            alt="grow-together image"
+            srcset="
+              ./images/bg-section-top-mobile-1.svg   900w,
+              ./images/bg-section-top-desktop-1.svg 1440w
+            "
           />
         </div>
         <div class="grow__box" data-aos="fade-right">
@@ -125,7 +131,11 @@
             width="150px"
             height="50px"
             src="./images/bg-section-bottom-mobile-1.svg"
-            alt=""
+            alt="shape curved down image"
+            srcset="
+              ./images/bg-section-bottom-mobile-1.svg   900w,
+              ./images/bg-section-bottom-desktop-1.svg 1440w
+            "
           />
         </div>
       </section>
@@ -135,7 +145,7 @@
       <!-- =============================================================================  -->
       <!-- Flowing SECTION  Start -->
       <section class="Flowing">
-        <div class="Flowing__Box" data-aos="fade-left">
+        <div class="Flowing__box" data-aos="fade-left">
           <img
             src="./images/illustration-flowing-conversation.svg"
             alt="Flowing-Image"
@@ -163,10 +173,14 @@
             width="150px"
             height="110px"
             src="./images/bg-section-top-mobile-2.svg"
-            alt=""
+            alt="curved shape image"
+            srcset="
+              ./images/bg-section-top-mobile-2.svg   900w,
+              ./images/bg-section-top-desktop-2.svg 1440w
+            "
           />
         </div>
-        <div class="user__Box" data-aos="fade-up-right">
+        <div class="user__box" data-aos="fade-up-right">
           <img
             src="./images/illustration-your-users.svg"
             alt="user-Image"
@@ -188,6 +202,10 @@
             height="100px"
             src="./images/bg-section-bottom-mobile-2.svg"
             alt=""
+            srcset="
+              ./images/bg-section-bottom-mobile-2.svg   900w,
+              ./images/bg-section-bottom-desktop-2.svg 1440w
+            "
           />
         </div>
       </section>
@@ -213,6 +231,10 @@
             height="70px"
             src="./images/bg-footer-top-mobile.svg"
             alt="footer-svg"
+            srcset="
+              ./images/bg-footer-top-mobile.svg   900w,
+              ./images/bg-footer-top-desktop.svg 1440w
+            "
           />
         </div>
         <div class="mainFooter__content" data-aos="slide-up">
@@ -287,7 +309,8 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https://twitter.com/Ali_GamalAli">Ali Gamal Ali</a>.
       </p>
     </footer>
   </body>

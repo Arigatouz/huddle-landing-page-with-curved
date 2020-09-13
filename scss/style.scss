@@ -219,7 +219,7 @@ button {
 .curved-top {
   position: absolute;
   top: -15rem;
-  width: 100vw;
+  width: 100%;
   & img {
     width: 100%;
   }
@@ -231,7 +231,7 @@ button {
   position: absolute;
   bottom: -5rem;
   right: 0;
-  width: 100vw;
+  width: 100%;
   @include respond(desktop) {
     bottom: -6rem;
   }
@@ -367,7 +367,7 @@ button {
   &__background {
     position: absolute;
     top: -7rem;
-    width: 100vw;
+    width: 100%;
     @include respond(desktop) {
       top: -15rem;
     }

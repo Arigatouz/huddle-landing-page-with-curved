@@ -266,7 +266,7 @@ button {
 .curved-top {
   position: absolute;
   top: -15rem;
-  width: 100vw;
+  width: 100%;
 }
 
 .curved-top img {
@@ -281,7 +281,7 @@ button {
   position: absolute;
   bottom: -5rem;
   right: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 @media screen and (min-width: 1440px) {
@@ -504,7 +504,7 @@ button {
 .mainFooter__background {
   position: absolute;
   top: -7rem;
-  width: 100vw;
+  width: 100%;
 }
 
 @media screen and (min-width: 1440px) {

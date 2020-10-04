@@ -68,8 +68,8 @@
         <div class="hero__box">
           <img
             class="hero__image"
-            width="279.69"
-            height="174.17"
+            width="279"
+            height="174"
             src="./images/screen-mockups.svg"
             alt="mockup-image"
           />
@@ -108,14 +108,18 @@
               ./images/bg-section-top-mobile-1.svg   900w,
               ./images/bg-section-top-desktop-1.svg 1440w
             "
+            sizes="(max-width :480px) 240vw ,
+                        (max-width : 960px) 480px , 
+                        (max-width : 1400px) 960px , 
+                        1920px"
           />
         </div>
         <div class="grow__box" data-aos="fade-right">
           <img
             src="./images/illustration-grow-together.svg"
             alt="grow-Image"
-            width="258.61"
-            height="211.56"
+            width="258"
+            height="211"
           />
         </div>
         <div class="grow__body" data-aos="fade-left">
@@ -136,6 +140,10 @@
               ./images/bg-section-bottom-mobile-1.svg   900w,
               ./images/bg-section-bottom-desktop-1.svg 1440w
             "
+            sizes="(max-width :480px) 240vw ,
+                        (max-width : 960px) 480px , 
+                        (max-width : 1400px) 960px , 
+                        1920px"
           />
         </div>
       </section>
@@ -149,8 +157,8 @@
           <img
             src="./images/illustration-flowing-conversation.svg"
             alt="Flowing-Image"
-            width="265.5"
-            height="189.56"
+            width="265"
+            height="189"
           />
         </div>
         <div class="Flowing__body" data-aos="fade-right">
@@ -178,14 +186,18 @@
               ./images/bg-section-top-mobile-2.svg   900w,
               ./images/bg-section-top-desktop-2.svg 1440w
             "
+            sizes="(max-width :480px) 240vw ,
+                        (max-width : 960px) 480px , 
+                        (max-width : 1400px) 960px , 
+                        1920px"
           />
         </div>
         <div class="user__box" data-aos="fade-up-right">
           <img
             src="./images/illustration-your-users.svg"
             alt="user-Image"
-            width="267.5"
-            height="200.56"
+            width="267"
+            height="200"
           />
         </div>
         <div class="user__body" data-aos="fade-up-left">
@@ -206,6 +218,10 @@
               ./images/bg-section-bottom-mobile-2.svg   900w,
               ./images/bg-section-bottom-desktop-2.svg 1440w
             "
+            sizes="(max-width :480px) 240vw ,
+                        (max-width : 960px) 480px , 
+                        (max-width : 1400px) 960px , 
+                        1920px"
           />
         </div>
       </section>
@@ -293,7 +309,7 @@
               weekly newsletter. We’ll never send you spam or pass on your email
               address
             </p>
-            <form action="" class="mainFooter__subscribeForm">
+            <form action="POST" class="mainFooter__subscribeForm">
               <label
                 style="visibility: hidden"
                 for="Subscribe"
